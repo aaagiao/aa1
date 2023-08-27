@@ -1,6 +1,6 @@
 baseurl: /
 languageCode: en-US
-title: 第一个blog
+title: PP的blog
 theme: hugo-lithium
 googleAnalytics: ''
 disqusShortname: ''
@@ -12,17 +12,15 @@ permalinks:
   post: /:year/:month/:day/:slug/
 menu:
   main:
-    - name: 测试
+    - name: 关于
       url: /about/
-    - name: GitHub
-      url: https://github.com/rstudio/blogdown
-    - name: Twitter
-      url: https://twitter.com/rstudio
+    - name: 微博
+      url: https://weibo.com/u/5321549432
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
   description: A website built through Hugo and blogdown.
-  favicon: favicon.ico
+  favicon: peng.ico
   highlightjsCDN: //cdnjs.cloudflare.com/ajax/libs
   highlightjsLang:
     - r
@@ -32,8 +30,8 @@ params:
   logo:
     alt: Logo
     height: 50
-    url: logo.png
-    width: 50
+    url: logo.ico
+    width: 60
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:
